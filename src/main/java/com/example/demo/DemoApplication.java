@@ -9,6 +9,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
         System.out.println("Hello World");
+        System.out.println("Open swagger at: http://localhost:8080/swagger-ui.html");
 	}
 
 }
